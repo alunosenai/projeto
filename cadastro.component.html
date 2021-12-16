@@ -1,0 +1,58 @@
+<form class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Empresa</mat-label>
+        <input matInput disabled value="Senai PIRITUBA SP">
+    </mat-form-field>
+
+    <table class="example-full-width" cellspacing="0">
+        <tr>
+            <td>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Primeiro Nome</mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </td>
+            <td>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Sobrenome</mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Endereço</mat-label>
+            <textarea matInput placeholder="Ex. Rua Pirituba, 100"></textarea>
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Outro endereço</mat-label>
+            <textarea matInput></textarea>
+        </mat-form-field>
+    </p>
+
+    <table class="example-full-width" cellspacing="0">
+        <tr>
+            <td>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Cidade</mat-label>
+                    <input matInput placeholder="Ex. São Paulo">
+                </mat-form-field>
+            </td>
+            <td>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Estado</mat-label>
+                    <input matInput placeholder="Ex. São Paulo">
+                </mat-form-field>
+            </td>
+            <td>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>CEP</mat-label>
+                    <input matInput #postalCode maxlength="9" placeholder="Ex. 05057-100" value="">
+                    <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>
+                </mat-form-field>
+            </td>
+        </tr>
+    </table>
+</form>

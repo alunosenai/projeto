@@ -1,0 +1,243 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    display: block;
+    position: center;
+    width: 100%;
+    background-color: #0476D9;
+    margin: auto;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 2px -1px 15px 1px rgba(8, 111, 129, 0.377);
+}
+
+#menu {
+    width: 100%;
+    padding-bottom: 0px;
+    word-spacing: 15px;
+}
+
+.cabecalho {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* Formatação do Carrossel */
+
+#carouselExampleCaptions .carousel-inner,
+#carouselExampleCaptions .carousel-item {
+    height: 50vh;
+    color: white;
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    margin: auto
+}
+
+.overlay-image {
+    background-position: center;
+    width: 100%;
+    opacity: 0.7;
+}
+
+h5,
+h5>p {
+    /text-shadow: 2px 2px 5px black;
+}
+
+
+/* ------------------------------------- */
+
+
+/* Formatação do formulário do cabeçalho */
+
+input,
+select,
+textarea {
+    max-width: 200px;
+}
+
+.form {
+    border-radius: 5px;
+    color: grey;
+    font-size: 80%;
+    border-color: greenyellow;
+}
+
+.footer {
+    border-bottom-left-radius: 0px;
+    background-image: linear-gradient(#0476D9, #83A603);
+    margin: auto;
+    color: white
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 160%;
+    color: #8C48DB
+}
+
+
+/* Formatação dos links 
+
+a:link, a:visited {
+    text-decoration: none;
+	color: #0442BF
+	}
+
+a:hover {
+	text-decoration: none;
+	color: hotpink
+	}
+
+a:active {
+	text-decoration: none;
+    color: #0442BF
+	}
+    */
+
+.titulo:link,
+.titulo:visited {
+    text-decoration: none;
+    color: #0442BF;
+}
+
+.titulo:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+
+.especial:link,
+.especial:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.especial:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Formatação das imagens */
+
+.img_circular {
+    border-radius: 200px
+}
+
+.img_circ {
+    border-radius: 200px
+}
+
+.img_circular:hover {
+    width: 38px;
+    height: 38px;
+}
+
+.img_circ:hover {
+    width: 16%;
+    height: 16%;
+}
+
+.topo {
+    color: white;
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+
+.topo1 {
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+#btnBusca a {
+    border-radius: 200px
+}
+
+.menucentro {
+    padding-bottom: 5px;
+}
+
+.imgzoom {
+    height: 200px;
+    width: 200px;
+}
+
+.imgzoom:hover {
+    width: 203px;
+    height: 203px;
+}
+
+#botao_topo {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+}
+
+.linha {
+    text-align: center;
+    font-size: 125%;
+}
+
+.linha:hover {
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+    color: #83A603
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+.senha {
+    text-align: center;
+    margin: auto;
+}
+
+.cad {
+    margin-left: 38%;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
